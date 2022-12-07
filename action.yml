@@ -1,0 +1,16 @@
+name: 'Action testing'
+description: 'testing'
+inputs:
+  GITHUB_TOKEN:
+    required: true
+    description: GH access token
+  the_input:
+    required: false
+    description: Test input string
+    default: ''
+outputs:
+  THE_OUTPUT:
+    description: the output
+runs:
+  using: 'node16'
+  main: 'dist/index.js'
