@@ -1,7 +1,7 @@
 name: action-test_testing
 on:
   push :
-    branches: [ main ]
+    branches: [ testing ]
   pull_request: 
     branches: [ main ]
   workflow_dispatch:

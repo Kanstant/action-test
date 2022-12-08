@@ -5,7 +5,7 @@ try {
   const ghToken = core.getInput('GITHUB_TOKEN');
   const the_input = core.getInput('the_input');
 
-  console.log(`This is The_input ${the_input}!`);
+  console.log(`This is The_input: ${the_input}!`);
   const the_time = (new Date()).toTimeString();
   core.setOutput("time", the_time);
   //JSON webhook payload for the event that triggered the workflow
